@@ -32,7 +32,7 @@ public class RakCourtController {
 	@CrossOrigin(value = "*")
 	@GetMapping("/branchDetails")
 	public ResponseEntitys<?> getBranchDetails(){
-		logger.info("#######Entered into branch details##############33");
+		logger.info("#######Entered into branch details#############");
 		ResponseEntitys<?> response =rakCourtService.getBranches();
 //		try {
 //			response =rakCourtService.getBranches();
